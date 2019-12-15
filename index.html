@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/d916424051.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="conteiner main">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main-screen">
+                        <div class="box">
+                            <form name="search">
+                                <div class="conteiner">
+                                    <div class="row">
+
+                                        <div class="col-lg-6">
+                                            <input type="text" class="form-control" name="searchLine"
+                                                placeholder="Write movie name" > <i class="fas fa-times" id='inputClick'></i>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <button type="button" class="btn btn-success"
+                                                name="searchBtn">Search</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </form>
+                            <div id="error"></div>
+                            <div id="movies">
+                                <div class="conteiner">    
+                                    <div id="pages-block" class="btn-group" role="group"></div>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="movie-wrapper">
+                                                <div class="movie-poster">
+                                                    <img>
+                                                </div>
+                                                <div class="movie-name"></div>
+                                                <div class="movie-type"></div>
+                                                <div class="movie-year"></div>
+                                                <button type="button" class="btn btn-success">More details</button>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="movie-wrapper">
+                                                <div class="movie-poster">
+                                                    <img>
+                                                </div>
+                                                <div class="movie-name"></div>
+                                                <div class="movie-type"></div>
+                                                <div class="movie-year"></div>
+                                                <button type="button" class="btn btn-success">More details</button>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="movie-wrapper">
+                                                <div class="movie-poster">
+                                                    <img>
+                                                </div>
+                                                <div class="movie-name"></div>
+                                                <div class="movie-type"></div>
+                                                <div class="movie-year"></div>
+                                                <button type="button" class="btn btn-success">More details</button>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="movie-wrapper">
+                                                <div class="movie-poster">
+                                                </div>
+                                                <div class="movie-name"></div>
+                                                <div class="movie-type"></div>
+                                                <div class="movie-year"></div>
+                                                <button type="button" class="btn btn-success">More details</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="movie-wrapper">
+                                                <div class="movie-poster">
+                                                    <img>
+                                                </div>
+                                                <div class="movie-name"></div>
+                                                <div class="movie-type"></div>
+                                                <div class="movie-year"></div>
+                                                <button type="button" class="btn btn-success">More details</button>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="movie-wrapper">
+                                                <div class="movie-poster">
+                                                    <img>
+                                                </div>
+                                                <div class="movie-name"></div>
+                                                <div class="movie-type"></div>
+                                                <div class="movie-year"></div>
+                                                <button type="button" class="btn btn-success">More details</button>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="movie-wrapper">
+                                                <div class="movie-poster">
+                                                    <img>
+                                                </div>
+                                                <div class="movie-name"></div>
+                                                <div class="movie-type"></div>
+                                                <div class="movie-year"></div>
+                                                <button type="button" class="btn btn-success">More details</button>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="movie-wrapper">
+                                                <div class="movie-poster">
+                                                </div>
+                                                <div class="movie-name"></div>
+                                                <div class="movie-type"></div>
+                                                <div class="movie-year"></div>
+                                                <button type="button" class="btn btn-success">More details</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="movie-wrapper">
+                                                <div class="movie-poster">
+                                                    <img>
+                                                </div>
+                                                <div class="movie-name"></div>
+                                                <div class="movie-type"></div>
+                                                <div class="movie-year"></div>
+                                                <button type="button" class="btn btn-success">More details</button>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="movie-wrapper">
+                                                <div class="movie-poster">
+                                                    <img>
+                                                </div>
+                                                <div class="movie-name"></div>
+                                                <div class="movie-type"></div>
+                                                <div class="movie-year"></div>
+                                                <button type="button" class="btn btn-success">More details</button>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="conteiner second">
+           
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="movieAbout">
+                        <div class="conteiner">
+                                <div class="row">
+                                        <div class="col-lg-12">
+                                                <i class="fas fa-times" id='click'></i>
+                                        </div>
+                                    </div>
+                            <div class="row">
+
+                                <div class="col-lg-4">
+                                    <div id="movie-about-poster"></div>
+
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="movie-about">
+                                        <div class="movie-about-name"></div>
+                                        <div class="movie-about-rated"></div>
+                                        <div class="movie-about-plot"></div>
+                                        <div class="movie-about-writer"><span>Written by: </span></div>
+                                        <div class="movie-about-director"><span>Directed by: </span></div>
+                                        <div class="movie-about-actors"><span>Starring: </span></div>
+                                        <div class="movie-about-boxofice"><span>BoxOffice: </span></div>
+                                        <div class="movie-about-awards"><span>Awards: </span></div>
+                                        <div class="movie-about-ratings"><span>Ratings: </span></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
